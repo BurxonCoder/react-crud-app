@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 1070px; 
+    margin: auto;
+}
+
+.image{
+    padding-top: 30px;
+    width: 300px;
+    margin:auto;
+    text-align: center;
+}
+
+.image img{
+width: 100%;
+}
+
+.btn{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="image">
+                    <img id="bulb" src="switchoff.jpg">
+                    <button id="toggleBtn" class="btn"> On</button>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <script>
+let btn = document.getElementById('toggleBtn')
+let bulb = document.getElementById('bulb')
+btn.addEventListener('click',toggleBulb)
+function toggleBulb(e){
+    if(btn.textContent.includes('On')){
+        bulb.src = "switchon.jpg"
+        btn.textContent = "Off"
+    }else{
+        bulb.src = "switchoff.jpg"
+        btn.textContent = "On"
+    }
+}
+        </script>
+    </body>
+</html>
